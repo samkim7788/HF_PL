@@ -16,11 +16,13 @@ KorEmpatheticDialogues는 DeepL 번역기 API를 사용하여 원본 EmpatheticD
 번역된 공개적으로 사용 가능한 한국어 공감 대화 데이터이다. .
 언어 - 한국
 
-|필드 |	유형 | 설명 |
-|dialogue_id | int | 대화의 식별자 |
-|dialogue | list of dict | 목록	각 사전 항목에 {utter_idx, utter, user_id}가 포함된 대화|
-|situation	| str |	감정적 상황 문장|
-|emotion | str |	감정 범주(예: 죄책감, 배려 등)|
+| 필드명       | 유형           | 설명                                                                 |
+|--------------|----------------|----------------------------------------------------------------------|
+| dialogue_id  | int            | 대화의 고유 식별자                                                   |
+| dialogue     | list of dict   | 대화 발화 목록. 각 항목은 `{utter_idx, utter, user_id}` 구조의 사전   |
+| situation    | str            | 감정적 상황을 설명하는 문장                                          |
+| emotion      | str            | 감정 범주 (예: 죄책감, 배려, 슬픔, 기쁨 등)                          |
+
 
 # 결과<br />
 
