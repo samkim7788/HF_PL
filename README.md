@@ -24,6 +24,9 @@ KorEmpatheticDialogues는 DeepL 번역기 API를 사용하여 원본 EmpatheticD
 | emotion      | str            | 감정 범주 (예: 죄책감, 배려, 슬픔, 기쁨 등)                          |
 
 
+### ▶️ 사용 모델
+monologg/kobert [https://huggingface.co/monologg/kobert]
+
 # 결과<br />
 
 <img width="672" height="662" alt="image" src="https://github.com/user-attachments/assets/2eaaefdd-eda2-47bf-b0f7-6c868f82122e" />
